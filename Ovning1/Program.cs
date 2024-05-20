@@ -4,6 +4,13 @@
     {
         static void Main(string[] args)
         {
+            /*
+             * 1. En klass för att hantera personalens namn och lön. Vid större projekt skulle jag ha en personalklass och låta en löneklass ärva från den.
+             * 
+             * 2. En metod för att addera personal och en metod för att lista personal. Med attribut antar jag du menar namn och lön?
+             * 
+             */
+
             List<PersonalRegister> personalList = new List<PersonalRegister>();
             bool running = true;
 
